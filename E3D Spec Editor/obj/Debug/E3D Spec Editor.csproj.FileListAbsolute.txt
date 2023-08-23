@@ -1,0 +1,11 @@
+C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\bin\Debug\E3D Spec Editor.exe.config
+C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\bin\Debug\E3D Spec Editor.exe
+C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\bin\Debug\E3D Spec Editor.pdb
+C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.csproj.AssemblyReference.cache
+C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.csproj.SuggestedBindingRedirects.cache
+C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D_Spec_Editor.MainForm.resources
+C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D_Spec_Editor.Properties.Resources.resources
+C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.csproj.GenerateResource.cache
+C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.csproj.CoreCompileInputs.cache
+C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.exe
+C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.pdb
