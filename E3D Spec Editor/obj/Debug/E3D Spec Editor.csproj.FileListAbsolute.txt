@@ -9,3 +9,28 @@ C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D S
 C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.csproj.CoreCompileInputs.cache
 C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.exe
 C:\GitHub_SK_Repo\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.pdb
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.csproj.AssemblyReference.cache
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D_Spec_Editor.MainForm.resources
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D_Spec_Editor.ProjectForm.resources
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D_Spec_Editor.Properties.Resources.resources
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.csproj.GenerateResource.cache
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.csproj.CoreCompileInputs.cache
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.exe
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.pdb
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\bin\Debug\E3D Spec Editor.exe.config
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\bin\Debug\E3D Spec Editor.exe
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\bin\Debug\E3D Spec Editor.pdb
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\bin\Debug\EntityFramework.dll
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\bin\Debug\EntityFramework.SqlServer.dll
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\bin\Debug\System.Data.SQLite.dll
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\bin\Debug\System.Data.SQLite.EF6.dll
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\bin\Debug\System.Data.SQLite.Linq.dll
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\bin\Debug\EntityFramework.xml
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\bin\Debug\EntityFramework.SqlServer.xml
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\bin\Debug\System.Data.SQLite.xml
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D Spec Editor.csproj.CopyComplete
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D_Spec_Editor.CatalogueForm.resources
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D_Spec_Editor.PropertyForm.resources
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D_Spec_Editor.SpecModifierForm.resources
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D_Spec_Editor.EditMenuForms.PropertyEditorForm.resources
+D:\PSN\CSharpProjects\E3D_Spec_Editor\E3D Spec Editor\obj\Debug\E3D_Spec_Editor.EditMenuForms.RenameForm.resources
