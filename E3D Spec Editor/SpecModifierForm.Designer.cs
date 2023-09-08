@@ -81,9 +81,9 @@ namespace E3D_Spec_Editor
             // 
             this.ApplyButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ApplyButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ApplyButton.Location = new System.Drawing.Point(158, 3);
+            this.ApplyButton.Location = new System.Drawing.Point(159, 3);
             this.ApplyButton.Name = "ApplyButton";
-            this.ApplyButton.Size = new System.Drawing.Size(149, 24);
+            this.ApplyButton.Size = new System.Drawing.Size(150, 24);
             this.ApplyButton.TabIndex = 5;
             this.ApplyButton.Text = "Apply";
             this.ApplyButton.UseVisualStyleBackColor = true;
@@ -306,7 +306,7 @@ namespace E3D_Spec_Editor
             this.NewButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.NewButton.Location = new System.Drawing.Point(3, 3);
             this.NewButton.Name = "NewButton";
-            this.NewButton.Size = new System.Drawing.Size(149, 24);
+            this.NewButton.Size = new System.Drawing.Size(150, 24);
             this.NewButton.TabIndex = 3;
             this.NewButton.Text = "New";
             this.NewButton.UseVisualStyleBackColor = true;
@@ -336,9 +336,9 @@ namespace E3D_Spec_Editor
             // DeleteButton
             // 
             this.DeleteButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DeleteButton.Location = new System.Drawing.Point(313, 3);
+            this.DeleteButton.Location = new System.Drawing.Point(315, 3);
             this.DeleteButton.Name = "DeleteButton";
-            this.DeleteButton.Size = new System.Drawing.Size(152, 24);
+            this.DeleteButton.Size = new System.Drawing.Size(150, 24);
             this.DeleteButton.TabIndex = 6;
             this.DeleteButton.Text = "Delete";
             this.DeleteButton.UseVisualStyleBackColor = true;

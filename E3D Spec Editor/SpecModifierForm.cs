@@ -62,11 +62,6 @@ namespace E3D_Spec_Editor
 
         }
 
-        private void ResetButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void ApplyButton_Click(object sender, EventArgs e)
         {
             string standard = this.StandardComboBox.Text;
@@ -78,7 +73,7 @@ namespace E3D_Spec_Editor
             string component = this.ComponentComboBox.Text;
             string remarks = this.RemarksTextBox.Text;
 
-            bool isValid = standard != null && stype != null && heading != null && component != null && section != null;
+            bool isValid = standard != null && stype != "" && heading != null && component != null && section != null;
 
             bool isNew = this.specModifierView.ElementIdLabel.Text.Contains("New");
 

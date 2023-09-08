@@ -55,23 +55,28 @@ namespace E3D_Spec_Editor
 
                 MenuItem RenameMenuItem = new MenuItem("&Rename");
                 MenuItem PropertyEditMenuItem = new MenuItem("&Edit Property");
-                MenuItem RemoveMenuItem = new MenuItem("&Remove");
+                MenuItem DeleteMenuItem = new MenuItem("&Delete");
                 
                 RenameMenuItem.Click += RenameMenuItem_Click;
                 PropertyEditMenuItem.Click += PropertyEditMenuItem_Click;
-                RemoveMenuItem.Click += RemoveMenuItem_Click;
+                DeleteMenuItem.Click += DeleteMenuItem_Click;
 
                 contextMenu.MenuItems.Add(RenameMenuItem);
                 contextMenu.MenuItems.Add(PropertyEditMenuItem);
-                contextMenu.MenuItems.Add(RemoveMenuItem);
+                contextMenu.MenuItems.Add(DeleteMenuItem);
 
                 contextMenu.Show(this, e.Location);
             }
         }
 
-        private void RemoveMenuItem_Click(object sender, EventArgs e)
+        private void DeleteMenuItem_Click(object sender, EventArgs e)
         {
-            
+            DialogResult dialogResult = MessageBox.Show("Sure, you want to delete ?", "Delete Table", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.applicationDbView.DeleteTable(this.selectedNode.Parent.Text, selectedNode.Tag.ToString());
+                this.selectedNode.Remove();
+            }
         }
 
         private void PropertyEditMenuItem_Click(object sender, EventArgs e)

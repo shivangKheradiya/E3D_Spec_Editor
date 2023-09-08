@@ -135,7 +135,8 @@ namespace E3D_Spec_Editor.View
                 while (myEnumerator.MoveNext() != false)
                 {
                     index = (int)myEnumerator.Current;
-                    this.specModifierView.checkedListBox.SetItemChecked(index, false);
+                    if (index != -1)
+                        this.specModifierView.checkedListBox.SetItemChecked(index, false);
                 }
 
                 string[] sizes = dgvRow.Cells[5].Value.ToString().Split(',');
@@ -143,7 +144,10 @@ namespace E3D_Spec_Editor.View
                 for (int i =0; i < sizes.Length; i++)
                 {
                     index = this.specModifierView.checkedListBox.Items.IndexOf(sizes[i]);
-                    this.specModifierView.checkedListBox.SetItemChecked(index, true);
+                    if (index != -1)
+                    {
+                        this.specModifierView.checkedListBox.SetItemChecked(index, true);
+                    }
                 }
 
                 this.specModifierView.SelectedDataGridRow = dgvRow;

@@ -82,6 +82,42 @@ namespace E3D_Spec_Editor.View
             this.DbContext.BeginTransection();
         }
 
+        internal void DeleteTable(string parent, string ID)
+        {
+            string tableName = this.getTableNameFromParent(parent, ID);
+            string Query = "";
+            switch (parent)
+            {
+                case "Size":
+                    Query = "DROP TABLE " + tableName + ";";
+                    this.DbContext.ExecuteQuery(Query);
+                    Query = "DELETE FROM SizeTableAttribute WHERE ReferenceNo ='" + ID + "' ;";
+                    this.DbContext.ExecuteQuery(Query);
+                    break;
+                case "Material":
+                    Query = "DROP TABLE " + tableName + ";";
+                    this.DbContext.ExecuteQuery(Query);
+                    Query = "DELETE FROM MaterialTableAttribute WHERE ReferenceNo ='" + ID + "' ;";
+                    this.DbContext.ExecuteQuery(Query);
+                    break;
+                case "Description":
+                    Query = "DROP TABLE " + tableName + ";";
+                    this.DbContext.ExecuteQuery(Query);
+                    tableName = "";
+                    Query = "DELETE FROM DescriptionTableAttribute WHERE ReferenceNo ='" + ID + "' ;";
+                    this.DbContext.ExecuteQuery(Query);
+                    break;
+                case "Specification":
+                    Query = "DROP TABLE " + tableName + ";";
+                    this.DbContext.ExecuteQuery(Query);
+                    Query = "DELETE FROM SpecificationsTableAttribute WHERE ReferenceNo ='" + ID + "' ;";
+                    this.DbContext.ExecuteQuery(Query);
+                    break;
+                default:
+                    break;
+            }
+        }
+
         internal void renameSelectedElement(string parent, string ID, string newName)
         {
             string tableName = "";

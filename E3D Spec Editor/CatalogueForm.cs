@@ -52,9 +52,25 @@ namespace E3D_Spec_Editor
             {
                 ContextMenu contextMenu = new ContextMenu();
                 MenuItem RenameMenuItem = new MenuItem("&Rename");
+                MenuItem DeleteMenuItem = new MenuItem("&Delete");
+
                 RenameMenuItem.Click += RenameMenuItem_Click;
+                DeleteMenuItem.Click += DeleteMenuItem_Click;
+
                 contextMenu.MenuItems.Add(RenameMenuItem);
+                contextMenu.MenuItems.Add(DeleteMenuItem);
+
                 contextMenu.Show(this, e.Location);
+            }
+        }
+
+        private void DeleteMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Sure, you want to delete ?", "Delete Specification", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.applicationDbView.DeleteTable(this.selectedNode.Parent.Text, selectedNode.Tag.ToString());
+                this.selectedNode.Remove();
             }
         }
 
